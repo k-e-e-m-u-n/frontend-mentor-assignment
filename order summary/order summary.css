@@ -1,0 +1,119 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 
+ font-family: "Red Hat Display", sans-serif;*/
+
+body{
+  background-color:hsl(225, 100%, 94%);
+}
+ main{
+   background-color: white;
+    width: 30%;
+    height: 620px;
+    border-radius: 15px;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    margin-left:35%;   
+ }
+.div1{
+   width: 30%;
+
+}
+.img1{
+   width:25.3rem;
+   border-radius: 15px 15px 0px 0px;
+}
+h1{
+   color:hsl(223, 47%, 23%) ;
+   font-weight: 900;
+}
+p{
+   color:hsl(224, 23%, 55%) ;
+   font-weight: 500;
+   font-size: 1rem;
+}
+.p1{
+   display: inline-block;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+.div2{
+   display: flex;
+   width: 85%;
+   height: 13%;
+   border-radius: 15px;
+   background-color: hsla(225, 100%, 94%, 0.281);
+   margin-left: 6%;
+   text-align: justify;
+}
+
+span{
+   margin-right: auto;
+   margin-left: 5%;
+   line-height: 0.7rem;
+   color:hsl(223, 47%, 23%) ;
+}
+h3{
+   font-weight: 900;
+}
+a{
+  margin-top: 7%; 
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+
+}
+.div3{
+background-color:hsl(245, 75%, 52%) ;
+color: hsl(225, 100%, 94%) ;
+font-weight: 700;
+width: 80%;
+padding: 5%;
+border-radius: 15px;
+box-shadow: 0px 9px 26px 11px rgba(159, 165, 237, 0.514);
+margin:5% ;
+}
+a:hover{
+   text-decoration: none;
+   color:hsl(225, 34%, 50%) ;
+}
+.div3:hover{
+   background-color: hsl(224, 31%, 55%);
+}
+.p2{
+   font-weight: 700;
+}
+.p2:hover{
+   color: hsl(223, 47%, 23%);
+   
+}
+
